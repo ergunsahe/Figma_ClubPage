@@ -27,8 +27,8 @@ div {
 }
 
 body {
-  background: url(../images/photo-1497215842964-222b430dc094.png);
-  background-image: url(../images/photo-1497215842964-222b430dc094.png);
+  background: url(./images/photo-1497215842964-222b430dc094.png);
+  background-image: url(./images/photo-1497215842964-222b430dc094.png);
   background-size: cover;
   background-color: rgba(150, 150, 150, 0.7);
   background-repeat: no-repeat;
