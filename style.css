@@ -27,8 +27,13 @@ div {
 }
 
 body {
+<<<<<<< HEAD
   background: url(../images/photo-1497215842964-222b430dc094.png), rgba(150, 145, 145, 0.8);
   background-image: url(../images/photo-1497215842964-222b430dc094.png), initial;
+=======
+  background: url(./images/photo-1497215842964-222b430dc094.png);
+  background-image: url(./images/photo-1497215842964-222b430dc094.png);
+>>>>>>> b3d35322c602f367f7a33ac4af3894baf7db3ea2
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
