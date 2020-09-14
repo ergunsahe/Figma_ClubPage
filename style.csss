@@ -2,11 +2,6 @@
   background: #C4C4C4;
 }
 
-nav {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
 
 nav ul {
   display: flex;
@@ -16,11 +11,6 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-right: 15px;
-}
-
-hr {
-  color: white;
-  z-index: 1;
 }
 
 div {
@@ -46,12 +36,16 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  width: 100%;
+  height: 100%;
   background-blend-mode: soft-light;
   background-attachment: fixed;
   overflow: hidden;
 }
 
 h1 {
+  position: absolute;
+  top: 15%;
   width: 100%;
   height: auto;
   font-family: Modak;
@@ -60,35 +54,33 @@ h1 {
   font-size: 100px;
   line-height: 80px;
   color: white;
-  margin: 100px auto;
   text-align: center;
 }
 
-section div {
-  margin-left: 60%;
-  margin-top: 5%;
+section {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  width: 400px;
   background: #FFFFFF;
   border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 12px;
-  width: 450px;
+  padding: 0px 20px;
 }
 
-#main-ul {
-  list-style-type: circle;
-  list-style-position: inside;
-  padding: 0px 10px;
+.main-ul {
   font-family: Roboto;
   font-size: 20px;
   font-weight: bold;
   color: #460808;
 }
 
-#main-ul li {
+.main-ul li {
   padding: 20px;
 }
 
-@media (max-width: 465px) {
+@media (max-width: 1150) {
   body {
     background: url(../images/photo-1497215842964-222b430dc094.png), rgba(150, 145, 145, 0.79);
     background-image: url(../images/photo-1497215842964-222b430dc094.png), initial;
@@ -97,48 +89,49 @@ section div {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100vw;
-    height: 10vh;
+    width: 100%;
+    height: 100%;
     background-blend-mode: soft-light;
     background-attachment: fixed;
     overflow: hidden;
   }
 
   h1 {
+    position: absolute;
+    top: 7%;
     width: 100%;
     height: auto;
     font-family: Modak;
     font-style: normal;
     font-weight: normal;
     font-size: 70px;
-    line-height: 70px;
+    line-height: 50px;
     color: white;
     text-align: center;
   }
 
-  section div {
+  section {
+    position: relative;
+    top: 50%;
+    left: 50vw;
+    width: 300px;
     background: #FFFFFF;
     border: 1px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 12px;
-    margin-top: 2%;
-    margin-left: 12%;
-    width: 350px;
+    padding: 0px 20px;
   }
 
-  #main-ul {
-    padding: 0px 10px;
+  .main-ul {
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     color: #460808;
-    list-style-position: inside;
   }
 
-  #main-ul li {
+  .main-ul li {
     padding: 20px;
-    list-style-position: inside;
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.csss.map */

@@ -3,13 +3,25 @@
     
     background: #C4C4C4;
 }
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
 nav ul {
-    float: right;
+    display: flex;
+    flex-wrap: nowrap;
     
 }
 nav ul li {
     display: inline-block;
     margin-right: 15px;;
+}
+hr {
+    color: white;
+    z-index: 1;
 }
 
 div {   
